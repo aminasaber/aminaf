@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_1/listoftemple.dart';
+import 'package:test_1/listofartworks.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TempleListPage()
+      home: ListOfArtworks()
     );
   }
 }
